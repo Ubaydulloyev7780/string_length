@@ -7,6 +7,18 @@
     Returns:
         str: answer
      */
+import 'string_length01.dart';
+
 void main() {
-  // write your code here
+  print(func('salom6', 'hello70'));
+}
+
+String func(String s1, String s2) {
+  int a1 = s1.length;
+  int a2 = s2.length;
+  if (a1 > a2) {
+    return s1 + s2;
+  } else {
+    return s1;
+  }
 }

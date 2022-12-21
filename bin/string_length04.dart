@@ -7,5 +7,9 @@
         string
 */
 void main() {
-  // write your code here
+  print(func('alla'));
+}
+
+String func(String a) {
+  return   '*'*a.length;
 }

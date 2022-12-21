@@ -8,5 +8,11 @@
         total length of strings
 */
 void main() {
-  // write your code here
+  print(func('riuthg7', 'onger6'));
+}
+
+int func(String s1, String s2) {
+  int a1 = s1.length;
+  int a2 = s2.length;
+  return a1 + a2;
 }

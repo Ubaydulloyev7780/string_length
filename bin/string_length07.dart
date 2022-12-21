@@ -7,6 +7,18 @@
     Returns:
         string
 */
+import 'string_length01.dart';
+
 void main() {
-  // write your code here
+  print(func('abet5', 'peshin7'));
+}
+
+String func(String a, String b) {
+  int a1 = a.length;
+  int b1 = b.length;
+  if (a1 == b1) {
+    return a;
+  } else {
+    return b;
+  }
 }

@@ -6,9 +6,9 @@
     Returns:
         length of string */
         int func(String matn){
-          return matn.isEmpty;
+          return matn.length;
         }
 
 void main() {
-  print(func(ubaydulloyev));
+  print(func('ubaydulloyev'));
 }

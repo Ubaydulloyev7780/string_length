@@ -7,6 +7,17 @@
         bool: answer
 */
 
+import 'string_length01.dart';
+
 void main() {
-  // write your code here
+  print(func(''));
+}
+
+bool func(String a) {
+  bool x;
+  if (x = a.isEmpty) {
+    return x;
+  } else {
+    return x;
+  }
 }

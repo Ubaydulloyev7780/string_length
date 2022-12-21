@@ -7,6 +7,17 @@
     Returns:
         str: answer
 */
+import 'string_length01.dart';
+
 void main() {
-  // write your code here
+  print(func('qalaysan'));
+}
+
+String func(String a) {
+  int x = a.length;
+  if (x % 2 == 1) {
+    return a[(x) ~/ 2];
+  } else {
+    return a[(x + 1) ~/ 2 ];
+  }
 }
