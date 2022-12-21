@@ -5,7 +5,10 @@
         a: string
     Returns:
         length of string */
+        int func(String matn){
+          return matn.isEmpty;
+        }
 
 void main() {
-  // write your code here
+  print(func(ubaydulloyev));
 }

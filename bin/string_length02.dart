@@ -6,6 +6,14 @@
     Returns:
         True or False
      */
+     bool func(String matn){
+      if(matn.isEmpty%2==0);{
+        return true;
+      }
+      else{
+        return false;
+      }
+     }
 void main() {
-  // write your code here
+  print(func(ubaydulloyev));
 }
