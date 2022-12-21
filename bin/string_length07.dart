@@ -10,15 +10,17 @@
 import 'string_length01.dart';
 
 void main() {
-  print(func('abet5', 'peshin7'));
+  print(func('abet', 'peshin7'));
 }
 
 String func(String a, String b) {
   int a1 = a.length;
   int b1 = b.length;
-  if (a1 == b1) {
-    return a;
-  } else {
-    return b;
+  if (a1 % 2 == 0) {
+    print(a);
   }
+  if (b1 % 2 == 0) {
+    print(b);
+  }
+  return '0';
 }
