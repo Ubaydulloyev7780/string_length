@@ -10,14 +10,9 @@
 import 'string_length01.dart';
 
 void main() {
-  print(func(''));
+  print(func('diyor'));
 }
 
-bool func(String a) {
-  bool x;
-  if (x = a.isEmpty) {
-    return x;
-  } else {
-    return x;
-  }
+String func(String a) {
+  return a.toUpperCase();
 }

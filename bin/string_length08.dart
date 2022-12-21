@@ -18,6 +18,6 @@ String func(String a) {
   if (x % 2 == 1) {
     return a[(x) ~/ 2];
   } else {
-    return a[(x + 1) ~/ 2 ];
+    return a[(x + 1) ~/ 2 - 1] + a[(x + 1) ~/ 2];
   }
 }

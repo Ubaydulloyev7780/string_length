@@ -19,6 +19,6 @@ String func(String s1, String s2) {
   if (a1 > a2) {
     return s1 + s2;
   } else {
-    return s1;
+    return s2;
   }
 }
