@@ -13,12 +13,12 @@ void main() {
   print(func('hayot6', 'daxshatli9'));
 }
 
-int func(String a, String b) {
+String func(String a, String b) {
   int a1 = a.length;
   int b1 = b.length;
   if (a1 < b1) {
-    return a1;
+    return a;
   } else {
-    return b1;
+    return b;
   }
 }
